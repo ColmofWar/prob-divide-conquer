@@ -18,7 +18,7 @@ function findFloor(arr,target) {
     while(arr[rightIdx] > target){
         rightIdx --;
     }
-    return arr[rightIdx]
+    return arr[rightIdx];
 }
 
-//module.exports = findFloor
+module.exports = findFloor
